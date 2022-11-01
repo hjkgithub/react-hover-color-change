@@ -1,24 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+//import {useState} from 'react';
+
+
 
 function App() {
+
+
   return (
+    <>
     <div className="App">
-      <header className="App-header">
+      <header className="Sectionone">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        
+        
+        <p className="sectionone-text">
+          I am section one   <code> </code> and i am Black.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+       
+        </header>
+
+
+      
+        <header className="Sectiontwo">
+        <img src={logo} className="App-logo-reverse" alt="logo-reverse" />
+        <p class="sectiontwo-text">
+          I Am section<code> </code> Two and i am White.
+        </p>
+        </header>
+      
+      
     </div>
+    </>
   );
 }
 

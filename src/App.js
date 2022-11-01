@@ -1,38 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 //import {useState} from 'react';
-
+import ChangeColor from './components/ChangeColor';
 
 
 function App() {
 
 
   return (
-    <>
+   
+ 
     <div className="App">
-      <header className="Sectionone">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        
-        <p className="sectionone-text">
-          I am section one   <code> </code> and i am Black.
-        </p>
 
-       
-        </header>
+    <ChangeColor/>
+     
+    
 
-
-      
-        <header className="Sectiontwo">
-        <img src={logo} className="App-logo-reverse" alt="logo-reverse" />
-        <p class="sectiontwo-text">
-          I Am section<code> </code> Two and i am White.
-        </p>
-        </header>
-      
-      
     </div>
-    </>
   );
 }
 

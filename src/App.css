@@ -38,13 +38,13 @@
 .Sectionone:hover {
   background: rgb(243, 238, 238);
 }
-
+ 
 .sectionone-text{
-  background-color: #61dafb;
-}
+  background-color:  rgb(8, 8, 8);
+} 
 
 .sectionone-text:hover{
-  background-color: #000c0f;
+  background-color: #e9eef0;
 }
 
 .Sectiontwo {
